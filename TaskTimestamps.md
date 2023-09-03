@@ -17,3 +17,7 @@
 - [x] 10:00 PM to 10:20 PM - Configured: App CSS to remove space between content on Home page.
 
 - [x] 10:20 PM to 11:20 PM - Pages: Spacecraft individual JS file and CSS created and configured to routes PageLayout
+
+## September 3, 2023
+
+- [x] 11:20 PM to 12:40 PM - Updated loading provider function names. Add CSS to Spacecraft, SpacecraftBuild, and SpaceCrafts components. Added logic to SpacecraftBuild allowing users to submit a form and enable data validation to build the spacecraft. Spacecrafts page added to view all the spacecraft components. PageLayout added new functionality pages configured.

@@ -3,8 +3,8 @@ import React, { createContext, useState, useCallback } from "react";
 // Initial context with default values
 const INITIAL_LOADING_STATE = {
   isLoading: false,
-  startLoading: function () {},
-  stopLoading: function () {},
+  enableLoading: function () {},
+  disableLoading: function () {},
 };
 
 // Create a context to manage loading state
@@ -27,7 +27,13 @@ function LoadingProvider({ children }) {
 
   // Provide loading state and functions to children components
   return (
-    <LoadingContext.Provider value={{ isLoading, startLoading, stopLoading }}>
+    <LoadingContext.Provider
+      value={{
+        isLoading,
+        enableLoading: startLoading,
+        disableLoading: stopLoading,
+      }}
+    >
       {children}
     </LoadingContext.Provider>
   );

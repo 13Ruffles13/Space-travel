@@ -38,7 +38,8 @@
 /* Info section */
 .spacecraft__info {
   font-size: 1.2rem;
-  width: 50%;
+  padding-right: 10rem;
+  padding-left: 10rem;
 }
 
 /* Info header */
@@ -48,6 +49,7 @@
 
 /* Info text */
 .spacecraft__infoText {
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: justify;
+  width: 30rem;
 }

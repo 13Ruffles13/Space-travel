@@ -1,0 +1,27 @@
+/* Form inputs container */
+.form__inputs {
+  padding: 2rem;
+  border: 2px solid #ffffff;
+  margin: 2rem 0;
+}
+
+/* Input container, except the last one */
+.form__inputContainer:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+/* Submit container */
+.submitContainer {
+  display: flex;
+}
+
+/* Error container */
+.errorContainer {
+  flex-grow: 1;
+}
+
+/* Error messages */
+.error {
+  color: #ce3d3d;
+  margin-bottom: 2rem;
+}
