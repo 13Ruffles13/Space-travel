@@ -3,6 +3,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 
 // Import page components
 import Home from "../pages/Home/Home";
+import Spacecraft from "../pages/Spacecraft/Spacecraft";
 
 /**
  * Defines the application's routes using React Router.
@@ -14,6 +15,9 @@ function AppRoute() {
     <Routes>
       {/* Home Page */}
       <Route path="/" element={<Home />} />
+
+      {/* Spacecraft Page for individual spacecraft page*/}
+      <Route path="/spacecraft/:id" element={<Spacecraft />} />
     </Routes>
   );
 }

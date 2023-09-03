@@ -15,3 +15,5 @@
 - [x] 9:30 PM to 10:00 PM - Completed adding Home page component that prompts information about the home page. Plus added CSS. configured PageLayout JS file.
 
 - [x] 10:00 PM to 10:20 PM - Configured: App CSS to remove space between content on Home page.
+
+- [x] 10:20 PM to 11:20 PM - Pages: Spacecraft individual JS file and CSS created and configured to routes PageLayout
