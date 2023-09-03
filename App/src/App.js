@@ -5,6 +5,8 @@ import styles from "./App.module.css";
 import { LoadingContext } from "./context/LoadingProvider";
 import NavBar from "./components/Navigation/NavBar";
 import PageLayout from "./routes/PageLayout";
+import Motto from "./components/Motto/Motto";
+import Loading from "./components/LoadingPage/LoadingPage";
 
 function App() {
   const { isLoading } = useContext(LoadingContext);
@@ -19,8 +21,15 @@ function App() {
           <main className={styles["app___main"]}>
             <PageLayout />
           </main>
+
+          <footer className={styles["app__footer"]}>
+            <Motto />
+          </footer>
         </div>
       </BrowserRouter>
+      {
+        isLoading && <Loading />
+      }
     </>
   );
 }

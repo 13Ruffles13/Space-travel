@@ -20,4 +20,6 @@
 
 ## September 3, 2023
 
-- [x] 11:20 PM to 12:40 PM - Updated loading provider function names. Add CSS to Spacecraft, SpacecraftBuild, and SpaceCrafts components. Added logic to SpacecraftBuild allowing users to submit a form and enable data validation to build the spacecraft. Spacecrafts page added to view all the spacecraft components. PageLayout added new functionality pages configured.
+- [x] 11:20 PM to 12:40 AM - Updated loading provider function names. Add CSS to Spacecraft, SpacecraftBuild, and SpaceCrafts components. Added logic to SpacecraftBuild allowing users to submit a form and enable data validation to build the spacecraft. Spacecrafts page added to view all the spacecraft components. PageLayout added new functionality pages configured.
+
+- [x] 12:40 AM to 2:00 AM - Finished: Project scope of work is done and complete. Performed testing website. Added multiple ships. Functions behave as expected using spacecraft API. Users are able to browse through the website. Build an spacecraft. View the description of the spacecraft. Go onto planets and travel with the spacecraft dynamically changing the capacity value for the planets. Added favicon.ico for website. Updated users to see a loadingPage while API retrieves data. LoadingPage CSS added. Motto for bottom of website added plus CSS. CSS configured and touch ups for Planets, Spacecraft, SpacecraftBuild, and Spacecrafts. PageLayout added default route for user error catches.

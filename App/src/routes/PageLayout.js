@@ -6,6 +6,7 @@ import Home from "../pages/Home/Home";
 import Spacecrafts from "../pages/Spacecrafts/Spacecrafts";
 import SpacecraftBuild from "../pages/SpacecraftBuild/SpacecraftBuild";
 import Spacecraft from "../pages/Spacecraft/Spacecraft";
+import Planets from "../pages/Planets/Planets";
 
 /**
  * Defines the application's routes using React Router.
@@ -21,8 +22,12 @@ function AppRoute() {
       <Route path="/spacecrafts" element={<Spacecrafts />} />
       {/* Build a Spacecraft */}
       <Route path="/spacecraft/build" element={<SpacecraftBuild />} />
-      {/* Spacecraft Page for individual spacecraft page*/}
+      {/* Individual spacecraft page*/}
       <Route path="/spacecraft/:id" element={<Spacecraft />} />
+      {/* Planes Page */}
+      <Route path="/planets" element={<Planets />} />
+      {/* Default route, navigate to home page */}
+      <Route path="*" element={<Navigate to={"/"} />} />
     </Routes>
   );
 }

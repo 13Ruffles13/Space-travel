@@ -28,8 +28,7 @@
 .spacecraft__image {
   width: 10rem;
   height: 10rem;
-  object-fit: cover;
-  padding-right: 1rem;
+  object-fit: fill;
 }
 
 /* Default spacecraft image */
@@ -57,5 +56,5 @@
 }
 
 span {
-  padding-right: 0.2rem;
+  padding-left: 1rem;
 }

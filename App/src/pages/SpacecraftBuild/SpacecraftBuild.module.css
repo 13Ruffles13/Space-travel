@@ -3,6 +3,16 @@
   padding: 2rem;
   border: 2px solid #ffffff;
   margin: 2rem 0;
+  width: 60rem;
+}
+
+/* Form input containers */
+input,
+textarea {
+  width: 100%;
+}
+textarea {
+  height: 10rem;
 }
 
 /* Input container, except the last one */
