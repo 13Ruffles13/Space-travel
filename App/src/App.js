@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter>
         <div className={styles["app"]}>
           <header className={styles["app__header"]}>
-            <NavBar/>
+            <NavBar />
           </header>
         </div>
       </BrowserRouter>
