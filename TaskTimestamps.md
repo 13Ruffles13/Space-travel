@@ -6,4 +6,8 @@
 
 - [x] 1:00 PM to 1:30 PM - Implementation of NavBar file into component structure folder for Navigation. Added BrowserRouter to my main App file component.
 
+## September 2, 2023
+
 - [x] 8:00 PM to 9:00 PM - Header: Displays the navigation bar items
+
+- [x] 9:00 PM to 9:30 PM - routes: Create skeleton for page component routes and create 5 folders for pages that will contain components.
