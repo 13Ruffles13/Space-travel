@@ -11,3 +11,5 @@
 - [x] 8:00 PM to 9:00 PM - Header: Displays the navigation bar items
 
 - [x] 9:00 PM to 9:30 PM - routes: Create skeleton for page component routes and create 5 folders for pages that will contain components.
+
+- [x] 9:30 PM to 10:00 PM - Completed adding Home page component that prompts information about the home page. Plus added CSS. configured PageLayout JS file.
