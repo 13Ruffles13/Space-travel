@@ -1,5 +1,5 @@
-.app
-{
+/* Application container */
+.app {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -8,22 +8,22 @@
   min-height: 100vh;
 }
 
+/* Header, Main Content, and Footer */
 .app__header,
 .app__main,
-.app__footer
-{
+.app__footer {
   width: 100%;
   max-width: 64rem;
 }
 
+/* Header and Footer specific styles */
 .app__header,
-.app__footer
-{
+.app__footer {
   height: 6rem;
   margin: 3rem 6rem;
 }
 
-.app__main
-{
+/* Main Content specific styles */
+.app__main {
   min-height: calc(100vh - 24rem);
 }
