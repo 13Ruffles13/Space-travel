@@ -3,6 +3,7 @@ import { BrowserRouter } from "react-router-dom";
 
 import styles from "./App.module.css";
 import { LoadingContext } from "./context/LoadingProvider";
+import NavBar from "./components/Navigation/NavBar";
 
 function App() {
   const { isLoading } = useContext(LoadingContext);
@@ -10,7 +11,9 @@ function App() {
     <>
       <BrowserRouter>
         <div className={styles["app"]}>
-          <header className={styles["app__header"]}></header>
+          <header className={styles["app__header"]}>
+            <NavBar/>
+          </header>
         </div>
       </BrowserRouter>
       <h1>Space Travel</h1>
