@@ -51,8 +51,8 @@
 }
 
 .destroy__spacecraft {
-  position: relative;
-  left: 45rem;
+  position: fixed;
+  left: 85rem;
 }
 
 span {
