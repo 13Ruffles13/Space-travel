@@ -12,7 +12,7 @@ function App() {
   const { isLoading } = useContext(LoadingContext);
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/Space-travel">
         <div className={styles["app"]}>
           <header className={styles["app__header"]}>
             <NavBar />
