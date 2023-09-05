@@ -15,7 +15,6 @@
   width: 8rem;
   height: 8rem;
   margin-right: 2rem;
-  cursor: pointer;
   border: 2px dotted #ffffff;
 }
 
@@ -26,14 +25,20 @@
 
 /* Spacecraft image */
 .spacecraft__image {
-  width: 2.4rem;
-  height: 2.4rem;
+  width: 36.34px;
+  height: 30px;
   object-fit: fill;
+  margin-right: 1rem;
+  cursor: pointer;
+  border: 1.5px dotted #ffffff;
 }
 
 /* Default spacecraft image */
 .spacecraft__image--default {
-  font-size: 1.7rem;
+  font-size: 2.5rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  border: 1.5px dotted #ffffff;
 }
 
 /* Spacecraft info container */
@@ -48,13 +53,10 @@
 .spacecraft__info {
   display: flex;
   margin-bottom: .2rem;
+  text-indent: .2rem;
 }
 
 .destroy__spacecraft {
-  position: fixed;
+  position:fixed;
   left: 85rem;
-}
-
-span {
-  padding-left: 0.2rem;
 }
